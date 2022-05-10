@@ -20,6 +20,7 @@
 * Lua
 * Python
 * Ruby
+* Rust
 
 ## Answers
 

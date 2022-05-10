@@ -6,6 +6,7 @@ require '../judge/judge_python'
 require '../judge/judge_lua'
 require '../judge/judge_haskell'
 require '../judge/judge_cpp'
+require '../judge/judge_rust'
 
 puts 'Judge start'
 
@@ -19,3 +20,4 @@ judgeJS(FOLDER_PATH, CODE)
 judgeLua(FOLDER_PATH, CODE)
 judgePython(FOLDER_PATH, CODE)
 judgeRuby(FOLDER_PATH, CODE)
+judgeRust(FOLDER_PATH, CODE)
