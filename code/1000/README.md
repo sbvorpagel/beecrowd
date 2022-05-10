@@ -20,7 +20,7 @@ You must print the message **Hello World!** and then the endline as shown below.
 |              | Hello World!  |
 
 <details>
-  <summary>Solution</summary>
+  <summary>:mag: Expand to see the solution</summary>
   <p>
 
 ## Solution in C
