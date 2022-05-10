@@ -22,6 +22,7 @@ You must print the message **Hello World!** and then the endline as shown below.
 <details>
   <summary>Solution</summary>
   <p>
+
 ## Solution in C
 ```c
 #include <stdio.h>
