@@ -1,68 +1,81 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <div class="header">
-      <span>beecrowd | 1000</span>
-      <h1>Hello World!</h1>
-      <div>
-        <p>
-          Jean Bez, beecrowd
-          <img
-            alt=""
-            src="https://resources.beecrowd.com.br/gallery/images/flags/br.gif"
-            style="width: 16px; height: 11px"
-          />
-          Brasil
-        </p>
-      </div>
-      <strong>Timelimit: 1</strong>
-    </div>
-    <div class="problem">
-      <div class="description">
-        <p class="center">
-          <img
-            alt=""
-            src="https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1000.png"
-          />
-        </p>
-        <p>Welcome to <strong>beecrowd</strong>!</p>
-        <p>
-          Your first program in any programming language is usually "<strong
-            >Hello World!</strong
-          >". In this first problem all you have to do is print this message on
-          the screen.
-        </p>
-      </div>
-      <h2>Input</h2>
-      <div class="input">
-        <p>This problem has no input.</p>
-      </div>
-      <h2>Output</h2>
-      <div class="output">
-        <p>
-          You must print the message <strong>Hello World!</strong> and then the
-          endline as shown below.
-        </p>
-      </div>
-      <div class="both"></div>
-      <table>
-        <thead>
-          <tr>
-            <td>Input Sample</td>
-            <td>Output Sample</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="division">
-              <p></p>
-            </td>
-            <td>
-              <p>Hello World!</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </body>
-</html>
+###### beecrowd | 1000
+# Hello World!
+###### Jean Bez, beecrowd - Brasil
+#### Timelimit: 1
+
+Welcome to **beecrowd!**
+
+Your first program in any programming language is usually "**Hello World!**". In this first problem all you have to do is print this message on the screen.
+
+## Input
+
+This problem has no input.
+
+## Output
+
+You must print the message **Hello World!** and then the endline as shown below.
+
+| Input Sample | Output Sample |
+| ------------ | ------------- |
+|              | Hello World!  |
+
+<details>
+  <summary>Solution</summary>
+  <p>
+## Solution in C
+```c
+#include <stdio.h>
+
+int main() {
+
+  printf("Hello World!\n");
+  return 0;
+}
+```
+
+## Solution in C++
+```c++
+#include <iostream>
+using namespace std;
+ 
+int main() {
+ 
+  cout << "Hello World!" << endl; 
+  return 0;
+}
+```
+
+## Solution in Haskell
+```haskell
+main = putStrLn "Hello World!" 
+```
+
+## Solution in JavaScript
+```javascript
+console.log("Hello World!");
+```
+
+## Solution in Lua
+```lua
+print("Hello World!")
+```
+
+## Solution in Python
+```python
+print("Hello World!")
+```
+
+## Solution in Ruby
+```ruby
+puts 'Hello World!'
+```
+
+## Solution in Rust
+```rust
+fn main() {
+    println!("Hello World!");
+}
+```
+
+</p>
+</details>
