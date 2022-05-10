@@ -2,10 +2,11 @@
 
 int main() {
 
-  double num;
+  int num1;
+  int num2;
 
-  scanf("%lf", &num);
-  printf("A=%.4lf\n", 3.14159 * (num * num));
+  scanf("%d %d", &num1, &num2);
+  printf("SOMA = %d\n", num1 + num2);
 
   return 0;
 }
