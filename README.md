@@ -14,6 +14,7 @@
 ## Supported languages
 
 * C
+* Haskell
 * JavaScript
 * Lua
 * Python
