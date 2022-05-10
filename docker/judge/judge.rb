@@ -9,12 +9,9 @@ puts 'Judge start'
 
 CODE = ARGV[0]
 FOLDER_PATH = "../code/#{CODE}"
-VERBOSE = !!ARGV[1]
 
-puts 'Verbose mode' if VERBOSE
-
-judgeC(FOLDER_PATH, CODE, VERBOSE)
-judgeJS(FOLDER_PATH, CODE, VERBOSE)
-judgeLua(FOLDER_PATH, CODE, VERBOSE)
-judgePython(FOLDER_PATH, CODE, VERBOSE)
-judgeRuby(FOLDER_PATH, CODE, VERBOSE)
+judgeC(FOLDER_PATH, CODE)
+judgeJS(FOLDER_PATH, CODE)
+judgeLua(FOLDER_PATH, CODE)
+judgePython(FOLDER_PATH, CODE)
+judgeRuby(FOLDER_PATH, CODE)
