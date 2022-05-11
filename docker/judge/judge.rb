@@ -7,12 +7,14 @@ require '../judge/judge_lua'
 require '../judge/judge_haskell'
 require '../judge/judge_cpp'
 require '../judge/judge_rust'
+require '../judge/judge_dart'
 
 puts 'Judge start'
 
 CODE = ARGV[0]
 FOLDER_PATH = "../code/#{CODE}"
 
+judgeDart(FOLDER_PATH, CODE)
 judgeC(FOLDER_PATH, CODE)
 judgeCPP(FOLDER_PATH, CODE)
 judgeHaskell(FOLDER_PATH, CODE)

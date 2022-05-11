@@ -13,6 +13,7 @@
 
 ## Supported languages
 
+* Dart
 * C
 * C++
 * Haskell
