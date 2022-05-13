@@ -1,6 +1,9 @@
 ###### beecrowd | 1000
+
 # Hello World!
+
 ###### Jean Bez, beecrowd - Brasil
+
 #### Timelimit: 1
 
 Welcome to **beecrowd!**
@@ -24,6 +27,7 @@ You must print the message **Hello World!** and then the endline as shown below.
   <p>
 
 ## Solution in C
+
 ```c
 #include <stdio.h>
 
@@ -35,43 +39,50 @@ int main() {
 ```
 
 ## Solution in C++
+
 ```c++
 #include <iostream>
 using namespace std;
- 
+
 int main() {
- 
-  cout << "Hello World!" << endl; 
+
+  cout << "Hello World!" << endl;
   return 0;
 }
 ```
 
 ## Solution in Haskell
+
 ```haskell
-main = putStrLn "Hello World!" 
+main = putStrLn "Hello World!"
 ```
 
 ## Solution in JavaScript
+
 ```javascript
 console.log("Hello World!");
 ```
 
 ## Solution in Lua
+
 ```lua
 print("Hello World!")
 ```
 
 ## Solution in Python
+
 ```python
 print("Hello World!")
 ```
 
 ## Solution in Ruby
+
 ```ruby
 puts 'Hello World!'
 ```
 
 ## Solution in Rust
+
 ```rust
 fn main() {
     println!("Hello World!");

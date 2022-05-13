@@ -1,11 +1,11 @@
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const input = require("fs").readFileSync("/dev/stdin", "utf8");
+const lines = input.split("\n");
 
 const printAndCalcBanknotes = (quant, value) => {
   const actualQuant = Math.floor(quant / value);
   console.log(`${actualQuant} nota(s) de R\$ ${value},00`);
-  return quant - (actualQuant * value);
-}
+  return quant - actualQuant * value;
+};
 
 let n = parseInt(lines[0]);
 
