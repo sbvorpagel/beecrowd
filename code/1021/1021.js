@@ -10,7 +10,7 @@ const printAndCalcBanknotes = (quant, value) => {
 const printAndCalcCoins = (quant, coins) => {
   const actualQuant = Math.floor(quant.toFixed(2) / coins);
   console.log(`${actualQuant} moeda(s) de R\$ ${coins.toFixed(2)}`);
-  return quant - (actualQuant * coins);
+  return quant - actualQuant * coins;
 };
 
 let n = parseFloat(lines[0]);
@@ -24,11 +24,10 @@ n = printAndCalcBanknotes(n, 10);
 n = printAndCalcBanknotes(n, 5);
 n = printAndCalcBanknotes(n, 2);
 
-
-console.log("MOEDAS:")
-n = printAndCalcCoins(n, 1.00);
-n = printAndCalcCoins(n, 0.50);
+console.log("MOEDAS:");
+n = printAndCalcCoins(n, 1.0);
+n = printAndCalcCoins(n, 0.5);
 n = printAndCalcCoins(n, 0.25);
-n = printAndCalcCoins(n, 0.10);
+n = printAndCalcCoins(n, 0.1);
 n = printAndCalcCoins(n, 0.05);
 printAndCalcCoins(n, 0.01);
