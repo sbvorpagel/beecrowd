@@ -2,6 +2,9 @@
 
 ## How to use?
 
+### create a new code
+`make init CODE"<CODE_NUMBER>"`
+
 ### build image
 `make build`
 
