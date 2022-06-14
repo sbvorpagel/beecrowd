@@ -7,6 +7,7 @@ require '../judge/judge_dart'
 require '../judge/judge_haskell'
 require '../judge/judge_java'
 require '../judge/judge_js'
+require '../judge/judge_kotlin'
 require '../judge/judge_lua'
 require '../judge/judge_pascal'
 require '../judge/judge_python'
@@ -27,6 +28,7 @@ judgeDart(FOLDER_PATH, CODE)
 judgeHaskell(FOLDER_PATH, CODE)
 judgeJava(FOLDER_PATH, CODE)
 judgeJS(FOLDER_PATH, CODE)
+judgeKotlin(FOLDER_PATH, CODE)
 judgeLua(FOLDER_PATH, CODE)
 judgePascal(FOLDER_PATH, CODE)
 judgePython(FOLDER_PATH, CODE)

@@ -24,6 +24,7 @@
 * Haskell
 * Java
 * JavaScript
+* Kotlin
 * Lua
 * Pascal
 * Python

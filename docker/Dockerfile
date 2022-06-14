@@ -7,7 +7,9 @@ RUN apt install -y --no-install-recommends \
   lua5.3 haskell-platform rustc default-jdk \
   clojure mono-complete fpc
 # RScript install
-RUN apt install -y littler
+RUN apt install -y --no-install-recommends littler
+# Kotlin install
+RUN apt install -y --no-install-recommends kotlin
 # Dart install 
 RUN apt install -y --no-install-recommends \
   unzip curl git 
