@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 RUN apt update
 RUN apt install -y --no-install-recommends \
   nodejs ruby build-essential python3 \
-  lua5.3 haskell-platform rustc
+  lua5.3 haskell-platform rustc default-jdk
 # Dart install 
 RUN apt install -y --no-install-recommends \
   unzip curl git 

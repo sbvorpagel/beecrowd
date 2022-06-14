@@ -20,6 +20,7 @@
 * C
 * C++
 * Haskell
+* Java
 * JavaScript
 * Lua
 * Python
