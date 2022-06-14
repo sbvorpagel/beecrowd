@@ -2,6 +2,7 @@
 require '../judge/judge_c'
 require '../judge/judge_clojure'
 require '../judge/judge_cpp'
+require '../judge/judge_csharp'
 require '../judge/judge_dart'
 require '../judge/judge_haskell'
 require '../judge/judge_java'
@@ -19,6 +20,7 @@ FOLDER_PATH = "../code/#{CODE}"
 judgeC(FOLDER_PATH, CODE)
 judgeClojure(FOLDER_PATH, CODE)
 judgeCPP(FOLDER_PATH, CODE)
+judgeCSharp(FOLDER_PATH, CODE)
 judgeDart(FOLDER_PATH, CODE)
 judgeHaskell(FOLDER_PATH, CODE)
 judgeJava(FOLDER_PATH, CODE)

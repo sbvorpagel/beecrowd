@@ -1,9 +1,11 @@
 FROM ubuntu:22.04
+ENV TZ=America/Sao_Paulo
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt update
 RUN apt install -y --no-install-recommends \
   nodejs ruby build-essential python3 \
   lua5.3 haskell-platform rustc default-jdk \
-  clojure
+  clojure mono-complete
 # Dart install 
 RUN apt install -y --no-install-recommends \
   unzip curl git 
