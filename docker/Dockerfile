@@ -5,7 +5,7 @@ RUN apt update
 RUN apt install -y --no-install-recommends \
   nodejs ruby build-essential python3 \
   lua5.3 haskell-platform rustc default-jdk \
-  clojure mono-complete
+  clojure mono-complete fpc
 # Dart install 
 RUN apt install -y --no-install-recommends \
   unzip curl git 

@@ -25,6 +25,7 @@
 * Java
 * JavaScript
 * Lua
+* Pascal
 * Python
 * Ruby
 * Rust
