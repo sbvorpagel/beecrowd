@@ -16,9 +16,10 @@
 
 ## Supported languages
 
-* Dart
 * C
+* Clojure
 * C++
+* Dart
 * Haskell
 * Java
 * JavaScript
