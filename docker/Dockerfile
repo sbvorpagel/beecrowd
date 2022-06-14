@@ -6,6 +6,8 @@ RUN apt install -y --no-install-recommends \
   nodejs ruby build-essential python3 \
   lua5.3 haskell-platform rustc default-jdk \
   clojure mono-complete fpc
+# RScript install
+RUN apt install -y littler
 # Dart install 
 RUN apt install -y --no-install-recommends \
   unzip curl git 

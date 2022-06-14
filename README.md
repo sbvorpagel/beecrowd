@@ -27,6 +27,7 @@
 * Lua
 * Pascal
 * Python
+* R
 * Ruby
 * Rust
 
