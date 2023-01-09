@@ -3,7 +3,7 @@
 ## How to use?
 
 ### create a new code
-`make init CODE"<CODE_NUMBER>"`
+`make init CODE="<CODE_NUMBER>"`
 
 ### build image
 `make build`
@@ -31,6 +31,16 @@
 * R
 * Ruby
 * Rust
+
+## Unsupported languages
+
+* Scala
+* Elixir
+* Go
+* SQL
+* Ocaml
+* Swift
+* PHP
 
 ## Answers
 
