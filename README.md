@@ -26,11 +26,13 @@
 * JavaScript
 * Kotlin
 * Lua
+* Ocaml
 * Pascal
 * Python
 * R
 * Ruby
 * Rust
+* Swift
 
 ## Unsupported languages
 
@@ -38,8 +40,6 @@
 * Elixir
 * Go
 * SQL
-* Ocaml
-* Swift
 * PHP
 
 ## Answers

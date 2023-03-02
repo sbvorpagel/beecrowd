@@ -9,11 +9,13 @@ require '../judge/judge_java'
 require '../judge/judge_js'
 require '../judge/judge_kotlin'
 require '../judge/judge_lua'
+require '../judge/judge_ocaml'
 require '../judge/judge_pascal'
 require '../judge/judge_python'
 require '../judge/judge_r'
 require '../judge/judge_ruby'
 require '../judge/judge_rust'
+require '../judge/judge_swift'
 
 puts 'Judge start'
 
@@ -30,8 +32,10 @@ judgeJava(FOLDER_PATH, CODE)
 judgeJS(FOLDER_PATH, CODE)
 judgeKotlin(FOLDER_PATH, CODE)
 judgeLua(FOLDER_PATH, CODE)
+judgeOCaml(FOLDER_PATH, CODE)
 judgePascal(FOLDER_PATH, CODE)
 judgePython(FOLDER_PATH, CODE)
 judgeR(FOLDER_PATH, CODE)
 judgeRuby(FOLDER_PATH, CODE)
 judgeRust(FOLDER_PATH, CODE)
+judgeSwift(FOLDER_PATH, CODE)
