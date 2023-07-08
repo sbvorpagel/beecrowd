@@ -1,7 +1,9 @@
 using System;
 
-class URI {
-  static void Main(string[] args) {
+class URI
+{
+  static void Main(string[] args)
+  {
     double num1, num2, num3;
     const double num1Weight = 2;
     const double num2Weight = 3;
