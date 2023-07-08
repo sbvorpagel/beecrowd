@@ -1,0 +1,47 @@
+name: Run Tests
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build Docker image
+        run: |
+          cd docker
+          docker build -t sbvorpagel/beecrowd .
+
+      - name: Run tests
+        run: |
+          docker run --rm -v $(pwd)/code:/code sbvorpagel/beecrowd $(CODE) $(VERBOSE)
+
+      - name: Comment on PR
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { context, github } = require('@actions/github');
+
+            const prNumber = context.payload.pull_request.number;
+            const repo = context.repo.repo;
+            const owner = context.repo.owner;
+
+            const comment = `
+              **Test Results:**
+
+              Add your test results here.
+            `;
+
+            github.issues.createComment({
+              owner,
+              repo,
+              issue_number: prNumber,
+              body: comment
+            });
