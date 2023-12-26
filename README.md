@@ -36,11 +36,13 @@
 
 ## Unsupported languages
 
-* Scala
 * Elixir
 * Go
-* SQL
+* Julia
 * PHP
+* Scala
+* Typescript
+* SQL
 
 ## Answers
 
