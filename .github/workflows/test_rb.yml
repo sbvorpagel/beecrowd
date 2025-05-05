@@ -1,0 +1,27 @@
+name: Test Ruby
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - ruby/**
+
+defaults:
+  run:
+    working-directory: ./ruby
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: Install dependencies
+        run: bundle install
+      - name: Run tests
+        run: bundle exec rspec
