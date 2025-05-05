@@ -1,0 +1,21 @@
+name: Test JS
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 12.18.0
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
