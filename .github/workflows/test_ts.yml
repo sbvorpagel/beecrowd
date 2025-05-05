@@ -1,15 +1,15 @@
-name: Test JS
+name: Test TS
 
 on:
   pull_request:
     branches:
       - master
     paths:
-      - ts/**
+      - typescript/**
 
 defaults:
   run:
-    working-directory: ./ts
+    working-directory: ./typescript
 
 jobs:
   test:
