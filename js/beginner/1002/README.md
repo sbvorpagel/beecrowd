@@ -22,7 +22,7 @@ The input contains a value of floating point (double precision), that is the var
 Present the message `A=` followed by the value of the variable, as in the example below, with four places after the decimal point. Use all double precision variables. Like all the problems, don't forget to print the end of line after the result, otherwise you will receive "Presentation Error".
 
 | Input Samples | Output Samples |
-|---------------|----------------|
+| ------------- | -------------- |
 | 2.00          | A=12.5664      |
 | 100.64        | A=31819.3103   |
 | 150.00        | A=70685.7750   |

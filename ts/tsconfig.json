@@ -1,5 +1,3 @@
-
-
 {
   "compilerOptions": {
     "target": "es2016",
@@ -10,5 +8,5 @@
     "skipLibCheck": true,
     "rootDir": ".",
     "outDir": "dist"
-  },
+  }
 }

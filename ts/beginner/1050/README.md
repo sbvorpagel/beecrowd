@@ -30,5 +30,5 @@ The input consists in a unique integer number.
 Print the city name corresponding to the input DDD. Print `DDD nao cadastrado` if there isn't a corresponding DDD to the typed number.
 
 | Input Sample | Output Sample |
-|--------------|---------------|
+| ------------ | ------------- |
 | 11           | Sao Paulo     |
