@@ -20,7 +20,7 @@ export function makeOutput(city?: string): string {
   return "DDD nao cadastrado";
 }
 
-function readAString() : string {
+function readAString(): string {
   const input = require("fs").readFileSync("/dev/stdin", "utf8");
   const lines = input.split("\n");
   return lines[0];

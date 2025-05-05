@@ -22,12 +22,12 @@ Print the letter **X** (uppercase) with a blank space before and after the equal
 Obs.: don't forget the endline after all.
 
 | Samples Input | Samples Output |
-|--------------|---------------|
-| 10           | X = 19        |
-| 9            |               |
+| ------------- | -------------- |
+| 10            | X = 19         |
+| 9             |                |
 
-| -10          | X = -6        |
-| 4            |               |
+| -10 | X = -6 |
+| 4 | |
 
-| 15           | X = 8         |
-| -7           |               |
+| 15 | X = 8 |
+| -7 | |

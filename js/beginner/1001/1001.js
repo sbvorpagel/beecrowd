@@ -12,7 +12,7 @@ function readTwoNumbers() {
   return { a: Number(lines[0]), b: Number(lines[1]) };
 }
 
-module.exports = { sum, print };
+module.exports = { sum, print, resolve };
 
 if (require.main === module) {
   const { a, b } = readTwoNumbers();

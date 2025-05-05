@@ -1,7 +1,7 @@
 export function helloWorld(): string {
-    return "Hello World!"
+  return "Hello World!";
 }
 
 if (require.main === module) {
-    console.log(helloWorld());
+  console.log(helloWorld());
 }

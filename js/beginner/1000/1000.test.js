@@ -1,5 +1,7 @@
-const helloWorld = require('./1000');
+const helloWorld = require("./1000");
 
-test('should return "Hello World!"', () => {
+describe("helloWorld", () => {
+  test('should return "Hello World!"', () => {
     expect(helloWorld()).toBe("Hello World!");
+  });
 });
