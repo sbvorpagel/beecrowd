@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Move to js folder
+        run: cd js
       - uses: actions/checkout@v3
       - name: Using Node.js
         uses: actions/setup-node@v3
