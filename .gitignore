@@ -2,4 +2,6 @@
 .clj-kondo/
 .lsp/
 
-*/node_modules
+**/node_modules
+**/dist
+
