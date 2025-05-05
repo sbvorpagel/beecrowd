@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+defaults:
+  run:
+    working-directory: ./js
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -15,8 +19,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 12.18.0
-      - name: Move to js folder
-        run: cd js
       - name: Install dependencies
         run: npm install
       - name: Run tests
