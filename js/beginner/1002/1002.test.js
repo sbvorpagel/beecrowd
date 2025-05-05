@@ -12,10 +12,6 @@ describe("calculateArea", () => {
   test("should return 70685.7750 when the radius is 150.00", () => {
     expect(calculateArea(150.0)).toBe(70685.775);
   });
-
-  test("should return 70685.7750 when the radius is 150.00", () => {
-    expect(calculateArea(150.0)).toBe(70685.775);
-  });
 });
 
 describe("ouputString", () => {
