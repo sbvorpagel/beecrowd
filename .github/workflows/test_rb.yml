@@ -18,9 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Using Ruby
-        uses: actions/setup-ruby@v2
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1.2
+          ruby-version: 2.7
       - name: Install dependencies
         run: bundle install
       - name: Run tests
