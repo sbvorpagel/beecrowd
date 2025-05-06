@@ -1,0 +1,21 @@
+name: Test Python
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - python/**
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Ruby
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - name: Run tests
+        run: python -m unittest discover -s python
